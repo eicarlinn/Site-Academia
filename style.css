@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+.cabecalho-imagem{
+    width: 10%;
+}
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+.Academia-imagem{
+    width: 25%;
+}
+.Academia{
+    background-image: linear-gradient(rgb(255, 0, 0), black );
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.Academia-div-conteudo{
+    width: 35%;
+}
+.Academia-titulo{
+    padding: 24px 0;
+}
+.aluno-imagem{
+    width: 120px;
+}
+.aluno-icone{
+    width: 24px;
+}
+.aluno-div{
+    text-align: center;
+}
+.aluno-titulo{
+    text-align: center;
+    padding: 50px;
+}
+.aluno-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.rodape{
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+}
